@@ -1,56 +1,28 @@
-
-*{
-    padding: 0;
-    margin: 0;
-}
-body{
-    margin: auto;
-    background-color:whitesmoke;
-    color: #000000;
-    font-family: 'Roboto',sans-serif;
-    font-size: 1rem;
-}
-h1{
-    text-align: left;
-    margin-top: 0 ;
-    margin-bottom: 20px;
-}
-form {
-    width: 60vw;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
+* {
+    box-sizing:border-box;
   }
-fieldset{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin: auto;
+  body {
+    margin:20px;
+    background-color: #fafafa;
+  }
+  .cont{
+    margin-right: 450px;
+  }
+  form,fieldset{
+    width:450px;
+    /* resize: vertical; */
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    /* box-shadow:4px 4px 10px rgba(0, 0, 0, 0.06); */
+    height:600px;
+    margin-left: 550px;
+    font-family: cursive;
+  } 
+  fieldset{
     padding: 2rem;
-    border: none;
-    border: 40px solid rgb(63, 148, 198);
-    box-shadow: #4e4ed1;
-    background-color: rgb(11, 185, 248);
-    width: 300px;
-    /* height: 550px; */
-}
-.button{
-    border-bottom-color: #080814;
-    border: 2px solid rgb(103, 21, 6);
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);;
-    font-style: oblique;
-}
-label{
-    font-size: 20px;
-    font-family: cursive;
-}
-input{
-    font-size: 20px;
-    font-family: Monospace;
-}
-p{
-    font-family: cursive;
-    font-size: 20px;
-
-}
+    margin: auto;
+    background-color: rgb(226, 235, 248);
+    /* text-align: center; */
+    box-shadow: #a88a8a;
+  }
