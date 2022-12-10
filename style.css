@@ -20,16 +20,19 @@ h1{
 form{
     margin: 0 auto;
     font-size: 20px;
-    width: 600px;
-    height: 350px;
+    
 }
 fieldset{
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin: auto;
     padding: 2rem;
     border: none;
-    border: 20px solid rgb(117, 195, 240);
+    border: 40px solid rgb(63, 148, 198);
     box-shadow: #4e4ed1;
     background-color: rgb(11, 185, 248);
+    width: 400px;
+    height: 650px;
 }
 .button{
     border-bottom-color: #080814;
