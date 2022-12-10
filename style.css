@@ -4,8 +4,6 @@
     margin: 0;
 }
 body{
-    width: 100%;
-     height: 100vh; 
     margin: auto;
     background-color:whitesmoke;
     color: #000000;
@@ -31,8 +29,8 @@ fieldset{
     border: 40px solid rgb(63, 148, 198);
     box-shadow: #4e4ed1;
     background-color: rgb(11, 185, 248);
-    width: 400px;
-    height: 650px;
+    width: 300px;
+    /* height: 550px; */
 }
 .button{
     border-bottom-color: #080814;
@@ -51,6 +49,6 @@ input{
 }
 p{
     font-family: cursive;
-    font-size: 30px;
+    font-size: 20px;
 
 }
